@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="media.css"> -->
+    <link rel="stylesheet" href="../media_1.css">
+    <!-- javascript link -->
+    <script src="Main.js"></script>
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="./img/cropped-electro-fav-icon-2-270x270.png" type="image/x-icon">
+    <!-- boostrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-----------fontawesome icon cdn----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOSTRAP ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <scrispt src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"></scrispt>
+
+</head>
+
+<body>
+    <!----------------------------------- nav part------------------------------ -->
+    <!-- section start -->
+    <section class="world">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-evenly">
+                    <div class="store  col-md-6 border-0  border border-1">
+                        <h2 class="ms-3 p-2" style="color: #333e48;font-size: 13px;">Welcome to Worldwide Electronics
+                            Store</h2>
+                    </div>
+                    <div class="location col-md-6  mt-0">
+                        <div class="smart_one" style="margin-top: 10px;">
+                            <h3 class="fs-6" style="color: #333e48;"> <i class="bi bi-geo-alt text-center"></i> store
+                                location | </h3>
+                        </div>
+                        <div class="smart_one" style="margin-top: 10px;">
+                            <h3 class="fs-6 text-center" style="color: #333e48;"><i class="bi bi-truck"></i> Track your
+                                order |</h3>
+                        </div>
+                        <div class="smart_one" style="margin-top: 10px;">
+                            <h3 class="fs-6 text-center" style="color: #333e48;"><i class="bi bi-bag-check"></i> Shop
+                                &nbsp;|</h3>
+                        </div>
+                        <div class="smart_one me-2" style="margin-top: 10px;">
+                            <h3 class="fs-6 " style="color: #333e48;"><i class="bi bi-person fs-5 "></i> My Account |
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section end  -->
+
+    <!-- section start -->
+    <section class="off">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-between">
+                    <div class="electron col-md-2 ">
+                        <img src="../img/download (2).svg" alt="" style="width: 100px; height: 100px;">
+                    </div>
+                    <div class="november col-md-5 d-flex mt-4 justify-content-between">
+                        <div class="search ms-2">
+                            <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search">
+                        </div>
+                        <div class="opt">
+                            <select class="form-select border-0 " aria-label="Default select example">
+                                <option selected>All Categories</option>
+                                <option value="1">Accessories</option>
+                                <option value="2">Camer & Photography</option>
+                                <option value="3">computer Components</option>
+                                <option value="4">Gadgets</option>
+                                <option value="5">Home Entertainment</option>
+                                <option value="6">Laptop & computer</option>
+                                <option value="7">Printers & ink</option>
+                                <option value="8">Smart phones & Tablets</option>
+                                <option value="9">Tv & Audio</option>
+                                <option value="10">Video Games & Consoles</option>
+                                <option value="11">stero</option>
+                                <option value="12">home Theatre</option>
+                                <option value="13">Bluetooth Speakers</option>
+                                <option value="14">Headphones</option>
+                                <option value="15">Speakers</option>
+                            </select>
+                        </div>
+                        <div class="btn-one d-flex justify-content-center">
+                            <i class="bi bi-search text-center fs-4"></i>
+                        </div>
+                    </div>
+
+                    <div class="compar col-md-3 d-flex justify-content-evenly  fs-4">
+                        <div class="compare">
+                            <i class="bi bi-arrow-repeat fs-3" id="arrow"></i>
+                        </div>
+                        <div class="compare-one">
+                            <i class="bi bi-heart fs-3" id="arrow"></i>
+                        </div>
+                        <div class="compare-one">
+                            <button class="btn-use border-0" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                                    class="bi bi-person fs-3 " id="arrow"></i></button>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title fs-4" id="offcanvasRightLabel"><b>Register:</b></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <form>
+                                        <h2 class="fs-6" style="color: #6c757d; font-family: sans-serif;">Create new
+                                            account today to reap the benefits of a
+                                            personalized shopping experience.</h2>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1"
+                                                class="form-label fs-5"><b>Username</b></label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label fs-5"><b>Email
+                                                    Address</b></label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1"
+                                                class="form-label fs-5"><b>Password</b></label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <p class="fs-6" style="color: #6c757d; font-family: sans-serif;">Your
+                                            personal
+                                            data will be used to support your experience
+                                            throughout this website, to manage access to your account, and for other
+                                            purposes described in our privacy policy.</p>
+                                        <button type="submit" class="btn-web ">Register</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="compare-one">
+                            <a href="../html/Cart.html" class="text-decoration-none text-dark"> <i
+                                    class="bi bi-cart fs-3" id="arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section End-->
+
+
+    <!-- new header -->
+    <div class="newbar">
+        <nav>
+            <button class="btn mt-3" style="width: 50px;height: 50px;" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                <i class="bi bi-list fs-2 me-5 pt-0"></i>
+            </button>
+            <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+                aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <li class="active">Home</li>
+                    <li><span>Gadgets</span></li>
+                    <li><span>Smartphones</span></li>
+                    <li><span>Laptop & Desktops</span></li>
+                    <li><span>Tv & Audio</span></li>
+                    <li><span>Gps & Car</span></li>
+                    <li><span>Cameras & Accessories</span></li>
+                    <li><span>Movies & Games</span></li>
+                </div>
+            </div> 
+            <!-- canvas end -->
+
+            <div class="logo ">
+                <img src="../img/download.svg" alt="" style="width: 100px; height: 30px;" class="me-3 mt-4">
+            </div>
+            <div class="boost d-flex  gap-3 pt-3">
+                <li class="nav-item">
+                    <i class="bi bi-arrow-repeat fs-2" id="done"></i>
+                </li>
+                <li class="nav-item">
+                    <i class="bi bi-person fs-2 " id="done"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="../html/Cart.html" class="text-decoration-none text-dark"> <i class="bi bi-cart fs-3"
+                            id="arrow"></i></a>
+                </li>
+            </div>
+        </nav>
+    </div>
+
+    <!-- main header -->
+    <section class="tab">
+        <div class="container">
+            <div class="row">
+                <ul class="make d-flex justify-content-around fs-6 fw-bold mt-2 pt-1">
+                    <li>Home</li>
+                    <li>Tv & Audio</li>
+                    <li>Smart phones</li>
+                    <li>Laptop & Desktops</li>
+                    <li>Gadgets</li>
+                    <li>Gps & Car</li>
+                    <li>Cameras & Accessaries</li>
+                    <li>Movies & Games</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-------------------------------- nav part end------------------------------------------ -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="../index.html" class="fs-5 text-decoration-none text-dark">Home</a>&nbsp;&nbsp;/
+                <span class="fw-bold">Login</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- new section -->
+    <div class="container">
+        <div class="row mt-3 p-0">
+            <div class="wel-back col-md-6 border  border-2 shadow-lg m-auto mb-3 pb-5 ">
+                <form action="#" method="post" name="loginfrm" class="mt-5 ms-3 " onsubmit="return validateForm()">
+
+                    <head>
+                        <h2 class="main_change">Login</h2>
+                    </head>
+                    <p class="fs-5 mt-3" style="color: #333e48;">Welcome back! Sign in to your account.</p>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" style="color: #4c555e;font-weight: 700;">User name or email
+                            address *</label>
+                        <input type="text" class="roun_one form-control rounded-pill  mt-2" name="email" id="email"
+                            required>
+                        <span id="Message" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" style="color: #4c555e; font-weight: 700;">Password *</label>
+                        <input type="password" class="roun_one form-control  rounded-pill mt-2" name="password" id="password" placeholder="*********">
+                        <span id="number" class="text-danger"></span>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="showPasswordCheckbox" onchange="togglePasswordVisibility()">
+                        <label class="form-check-label" for="showPasswordCheckbox">
+                          <h2 class="fs-6"> Show Password</h2>
+                        </label>
+                      </div>
+                    <button type="submit" value="submit" class="btn_one mt-2">Log in</button>
+                    <h5 class="account mt-2 mb-2"> don't have an account &nbsp;&nbsp;<a href="./registration.html">Sign
+                            Up</a></h5>
+                </form>
+            </div>
+            <!-- login End -->
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer style="background-color: #8787871d;">
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-md-3">
+                    <div class="london">
+                        <img src="../img/download (1).svg" alt="" class="logo_last pb-2">
+                        <h5 class="head-set"><i class="bi bi-headset text-warning"></i> <span>(800) 8001-8588</span>
+                        </h5>
+                        <p class="princess fw-bold">Contact Info <br> <span style="color: #333e48;">17 Princess Road,
+                                London, Greater London NW1 8JR, UK</span></p>
+                        <div class="logo-iconn d-flex">
+                            <li> <i class="bi bi-facebook"></i></li>
+                            <li> <i class="bi bi-whatsapp"></i></li>
+                            <li><i class="bi bi-pinterest"></i></li>
+                            <li> <i class="bi bi-linkedin"></i></li>
+                            <li> <i class="bi bi-instagram"></i></li>
+                            <li> <i class="bi bi-youtube"></i></li>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- new footer in mobile size -->
+                <div class="accordion mt-3" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                style="height: 35px; padding: 10px;">
+                                <p class="fw-bold  mt-2" style="font-size: 16px;color: #333e48;"> My Account</p>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <li>About</li>
+                                <li>Contact V1</li>
+                                <li>Contact V2</li>
+                                <li>FAQ</li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                                style="height: 35px; padding: 10px;">
+                                <p class="fw-bold  mt-2" style="font-size: 16px;color: #333e48;">Customer Care</p>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <li>My Account</li>
+                                <li>Track your Order</li>
+                                <li>Customer Service</li>
+                                <li>Return/Exchange</li>
+                                <li>FAQ</li>
+                                <li>Product Support</li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                                style="height: 35px; padding: 12px;">
+                                <p class="fw-bold mt-2" style="font-size: 16px;color: #333e48;">About Us</p>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <li>Blog Single </li>
+                                <li>Store Directory</li>
+                                <li>Wishlist</li>
+                                <li>Compare</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End mobile size footer -->
+
+                <div class="col-md-3">
+                    <div class="find-it">
+                        <h5 class="fw-bold">Find It Fast</h5>
+                        <li>Laptops & Computers</li>
+                        <li>Cameras & Photography</li>
+                        <li>Smart Phones & Tablets</li>
+                        <li>Video Games & Consoles</li>
+                        <li>TV & Audio</li>
+                        <li>Gadgets</li>
+                        <li>Waterproof Headphones</li>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="find-it">
+                        <h5 class="fw-bold">Feature</h5>
+                        <li> About</li>
+                        <li>Contact</li>
+                        <li>Wishlist</li>
+                        <li>Compare</li>
+                        <li>TV & Audio</li>
+                        <li>FAQ</li>
+                        <li>Store Directory</li>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="find-it">
+                        <h5 class="fw-bold">Customer Care</h5>
+                        <li>My Account</li>
+                        <li>Track your Order</li>
+                        <li>Customer Service</li>
+                        <li>Returns/Exchange</li>
+                        <li>FAQs</li>
+                        <li>Product Support</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copy_bar">
+        <div class="container">
+            <div class="row p-0">
+                <div class="reserve col-md-12">
+                    <div class="copy-img">
+                        <h4>© Created By<span class="fw-bold text-dark "><a href="./index.html">Dhruval Patel</a></span>
+                            - All Rights
+                            Reserved</h4>
+                    </div>
+                    <div class="copy">
+                        <img src="../img/patment-icon1.webp" alt="" id="electro-all">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--validation js-->
+    <script src="../js/login_two.js"></script>
+    <!-- boostrap js cdn -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

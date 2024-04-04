@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.world {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.436);
+}
+
+.store {
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+}
+
+.location {
+    width: 600px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.alotment {
+    width: 100%;
+    height: 91px;
+    background-color: antiquewhite;
+}
+
+.smart {
+    width: 400px;
+    border-left: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 5px;
+    color: #333e48;
+}
+
+.btn-group {
+    width: 360px;
+    height: 50px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.339);
+}
+
+.btn-group:hover {
+    background-color: #e3e9ef;
+    color: #333e48;
+}
+
+.dropdown-menu {
+    width: 360px;
+}
+
+.come {
+    margin-left: 35px;
+}
+
+.november {
+    width: 550px;
+    height: 40px;
+    border: 2px solid #fed700;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.offcanvas-body h5 {
+    width: 320px;
+    height: 45px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.414);
+    color: #4b566b;
+    font-size: 10px;
+}
+
+.offcanvas-body h5:hover {
+    background-color: #dae1e8;
+}
+
+.btn-one {
+    width: 70px;
+    height: 38px;
+    border: 1px solid #fed700;
+    background-color: #fed700;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.compar {
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#arrow:hover {
+    color: #fed700;
+}
+
+#done:hover {
+    color: white;
+}
+
+.btn-use {
+    width: 50px;
+    height: 30px;
+    background: none;
+}
+
+.btn-web {
+    width: 120px;
+    height: 40px;
+    background-color: #efecec;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn-web:hover {
+    color: white;
+    background-color: #333e48;
+}
+
+.nav-item {
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.newbar nav {
+    display: flex;
+    background-color: #fed700;
+    justify-content: space-evenly;
+    height: 80px;
+}
+
+.tab {
+    width: 100%;
+    height: 50px;
+    background-color: #fed700;
+}
+
+.action {
+    width: 100px;
+    height: 80px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle {
+    width: 100px;
+    height: 30px;
+    background-color: #dae1e8;
+    font-size: 15px;
+}
+
+.make {
+    list-style: none;
+}
+
+.make li:hover {
+    color: white;
+}
+
+/* form */
+.form {
+    position: relative;
+}
+
+.wel-back {
+    width: 400px;
+}
+
+.account {
+    font-size: 20px;
+}
+
+.main_change {
+    width: 400px;
+    border-bottom: 1px solid #ddd;
+}
+
+.main_change::after {
+    content: " ";
+    display: block;
+    width: 120px;
+    position: absolute;
+    height: 2px;
+    top: 324px;
+    color: aliceblue;
+    background-color: #fed700;
+
+}
+
+.roun_one {
+    width: 400px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.btn_one {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #efecec;
+    font-size: 18px;
+    background-color: #efecec;
+    color: #333e48;
+    padding-bottom: 5px;
+}
+
+.btn_one:hover {
+    background-color: #333e48;
+    color: #efecec;
+}
+
+.shoppings {
+    font-size: 19px;
+}
+
+/* table */
+.container_one {
+    margin-top: 50px;
+}
+
+.product-img_one {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+table td:hover{
+    color:black;
+    background-color: #fed80052;
+}
